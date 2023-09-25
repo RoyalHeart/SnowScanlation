@@ -3,3 +3,6 @@ This website is made to show the work of a scanlation team [snow_snow](https://m
 The discord for the team is [https://discord.gg/WvjXr69YWP](https://discord.gg/WvjXr69YWP)
 
 The website is hosted by surge at [https://snow-scanlation.surge.sh](https://snow-scanlation.surge.sh)
+
+A preview of the website
+![Website preview](./resources/images/preview.png)
