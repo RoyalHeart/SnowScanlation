@@ -1,0 +1,86 @@
+@import url("../../visuals/snow/snow.css");
+body {
+  /* background-color: rgb(95, 190, 190); */
+  background-color: rgb(97, 157, 194);
+  height: 100%;
+}
+
+.title {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  font-family: "Angkor";
+  color: rgb(0, 62, 76);
+  -webkit-text-fill-color: rgb(0, 62, 76);
+  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke-width: 0.3px;
+}
+
+.info-content {
+  display: flex;
+  float: center;
+  width: auto;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.info-content > a > img {
+  width: 100px;
+  margin: auto;
+}
+
+.manga-list {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  float: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.manga {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4%;
+  text-align: center;
+}
+.manga > a > img {
+  border-radius: 10%;
+}
+.dropped {
+  filter: grayscale(100%);
+}
+
+#loading {
+  width: 200px;
+  height: 200px;
+  border: 10px solid #f3f3f3;
+  border-top: 6px solid #9c41f2;
+  border-radius: 100%;
+  margin: auto;
+  visibility: hidden;
+  animation: spin 1s infinite linear;
+}
+#loading.display {
+  visibility: visible;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  /* background-color: blue; */
+  color: white;
+  text-align: center;
+}

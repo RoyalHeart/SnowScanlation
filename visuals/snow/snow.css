@@ -1,0 +1,15 @@
+.snow {
+  position: absolute;
+  color: aliceblue;
+  transition-property: top, left;
+  transition-duration: 2000ms;
+}
+.snowpeeler {
+  width: 40px;
+  height: 10px;
+  position: absolute;
+}
+.snow-wrapper {
+  position: relative;
+  height: 100%;
+}
