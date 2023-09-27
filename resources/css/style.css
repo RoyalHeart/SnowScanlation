@@ -39,15 +39,17 @@ body {
   flex-direction: row;
 }
 .manga {
-  width: 40%;
-  display: flex;
   align-items: center;
   justify-content: center;
   margin: 4%;
   text-align: center;
+  flex-grow: 1;
+  flex-basis: 40%;
 }
 .manga > a > img {
   border-radius: 10%;
+  max-width: 300px;
+  min-width: 100px;
 }
 .dropped {
   filter: grayscale(100%);
